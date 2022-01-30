@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background: #dcdcdc;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+
+
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  background: #dcdcdc;
+}
+
+.content .title {
+  background: #dcdcdc;
+  color: blue;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.content h1 {
+  background: #dcdcdc;
+  color: black;
+  font-size: 75px;
+  font-weight: 900;
+  line-height: 90px;
+  text-transform: inherit;
+  width: 70%;
+}
+
+.content p {
+  background: #dcdcdc;
+  font-size: 125%;
+  width: 55%;
+  color: rgb(35, 33, 128);
+  margin-top: -420px;
+  margin-bottom: 30px;
+}
+
+.content img {
+  margin-left: 900px;
+  margin-top: -300px;
+  width: 450px;
+  height: auto;
+}
+
+/* Create two equal columns that float next to each other */
+.box {
+  background: #dcdcdc;
+  box-sizing: content-box;
+  position: relative;
+  width: 45%;
+  font-size: large;
+  height: 75px;
+  margin: 500px;
+  margin-left: 150px;
+  margin-bottom: 70px;
+  line-height: 2;
+}
+
+.box p {
+  background: #dcdcdc;
+  font-family: Verdana;
+}
+.box h1 {
+  color: rgb(35, 33, 128);
+  border-bottom: solid 1px blue;
+}
+#skills {
+  float: left;
+  padding-left: 0px;
+  margin: 10%;
+  margin-top: 0%;
+  width: 700px;
+}
+
+.message {
+  margin: 10%;
+  float: right;
+  padding-right: 0px;
+  margin-top: 0%;
+  padding-top: 150px;
+}
+.social {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+.footer .social a {
+  font-size: 40px;
+  letter-spacing: 20px;
+}
